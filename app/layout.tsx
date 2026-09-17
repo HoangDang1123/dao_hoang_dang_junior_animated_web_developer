@@ -24,8 +24,8 @@ const heebo = Heebo({
 });
 
 export const metadata: Metadata = {
-  title: "Sark - SEO Agency",
-  description: "SEO agency landing page",
+  title: "DAO HOANG DANG - JUNIOR ANIMATED WEB DEVELOPER",
+  description: "DAO HOANG DANG - JUNIOR ANIMATED WEB DEVELOPER",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
