@@ -130,7 +130,7 @@ pnpm start
 | Drag 3D Hero               |     ~30 FPS |
 | Scroll 3D Feature section  |     ~90 FPS |
 
-Trong quá trình kiểm thử local production build, project đạt **100 Performance score trên Google PageSpeed Insights – Desktop**.
+Trong quá trình kiểm thử local production build, project đạt **96 Performance score trên Google PageSpeed Insights – Desktop**.
 
 Các section 3D được kiểm tra trong các tình huống tương tác chính, bao gồm **drag ở Hero section** và **scroll qua 3D Feature section**, nhằm đảm bảo animation và interaction duy trì độ mượt trong quá trình sử dụng.
 
