@@ -122,11 +122,19 @@ pnpm build
 pnpm start
 ```
 
-Production build local đạt **100 Performance score trên Lighthouse Desktop** trong quá trình kiểm thử.
+## Performance Results
 
-Các section 3D có tương tác drag và scroll cũng được kiểm tra để đảm bảo animation hoạt động mượt mà.
+| Test Scenario              |         FPS |
+| -------------------------- | ----------: |
+| Normal webpage interaction | 50 - 60 FPS |
+| Drag 3D Hero               |     ~30 FPS |
+| Scroll 3D Feature section  |     ~90 FPS |
 
-Kết quả performance cuối cùng nên được kiểm tra lại trên URL Vercel đã deploy vì kết quả Lighthouse có thể thay đổi tùy thuộc vào điều kiện mạng, thời gian phản hồi của server và môi trường kiểm thử.
+Trong quá trình kiểm thử local production build, project đạt **100 Performance score trên Google PageSpeed Insights – Desktop**.
+
+Các section 3D được kiểm tra trong các tình huống tương tác chính, bao gồm **drag ở Hero section** và **scroll qua 3D Feature section**, nhằm đảm bảo animation và interaction duy trì độ mượt trong quá trình sử dụng.
+
+> **Note:** FPS được đo trong môi trường local và có thể thay đổi tùy thuộc vào thiết bị, GPU, trình duyệt và các tác vụ đang chạy trên hệ thống. Kết quả PageSpeed Insights cũng có thể thay đổi tùy thuộc vào điều kiện mạng, thời gian phản hồi của server và môi trường kiểm thử. Vì vậy, performance nên được kiểm tra lại trên URL Vercel đã deploy để có kết quả thực tế hơn.
 
 ---
 
